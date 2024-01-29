@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Storage.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea9b18d742b95c26f98885ab4cb6b4b2a35a3bcf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70d45e89c5424306056f108bbb274004a0136ca3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Storage.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Storage.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DU24pajnBaiuwzBW2c1G76H9MAakxpUHwur03O1h7/3RvGZH5dCi9CgD0kS3cLD9NqgEUuTmxSg5sWZm571/zw==",
+  "dgSpecHash": "Ulu5uBWprcJ8LWzfip7oPPEQY8Y5SBQQgUA6eIwWJRXNbakN1e9AiFNSD+AOWNyXIJGQWi0bBtV7/KckU40Q2w==",
   "success": true,
   "projectFilePath": "D:\\Programming\\Eva\\Storage\\Storage.BLL\\Storage.BLL.csproj",
   "expectedPackageFiles": [
@@ -43,6 +43,8 @@
     "C:\\Users\\vlad0\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\vlad0\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\vlad0\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\vlad0\\.nuget\\packages\\npgsql\\7.0.6\\npgsql.7.0.6.nupkg.sha512",
+    "C:\\Users\\vlad0\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.11\\npgsql.entityframeworkcore.postgresql.7.0.11.nupkg.sha512",
     "C:\\Users\\vlad0\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "C:\\Users\\vlad0\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\vlad0\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",

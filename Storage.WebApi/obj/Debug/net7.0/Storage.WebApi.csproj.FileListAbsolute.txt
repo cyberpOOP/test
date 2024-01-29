@@ -158,3 +158,10 @@ D:\Programming\Eva\Storage\Storage.WebApi\obj\Debug\net7.0\Storage.WebApi.pdb
 D:\Programming\Eva\Storage\Storage.WebApi\obj\Debug\net7.0\Storage.WebApi.genruntimeconfig.cache
 D:\Programming\Eva\Storage\Storage.WebApi\obj\Debug\net7.0\ref\Storage.WebApi.dll
 D:\Programming\Eva\Storage\Storage.WebApi\obj\Debug\net7.0\Storage.WebApi.sourcelink.json
+D:\Programming\Eva\Storage\Storage.WebApi\bin\Debug\net7.0\Npgsql.dll
+D:\Programming\Eva\Storage\Storage.WebApi\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Programming\Eva\Storage\Storage.WebApi\bin\Debug\net7.0\Humanizer.dll
+D:\Programming\Eva\Storage\Storage.WebApi\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Programming\Eva\Storage\Storage.WebApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Programming\Eva\Storage\Storage.WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Programming\Eva\Storage\Storage.WebApi\bin\Debug\net7.0\System.CodeDom.dll
