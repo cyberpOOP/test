@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Storage.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b609eb6754e5cbb71bd75535fa5bb6640f60fef6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Storage.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Storage.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

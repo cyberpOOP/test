@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Storage.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db7a0e213b5ba9a266fbf66b4d8b081f1d5df556")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b609eb6754e5cbb71bd75535fa5bb6640f60fef6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Storage.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Storage.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

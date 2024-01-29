@@ -29,7 +29,6 @@ D:\KPI\4_year\7_semester\.NET\Eva\Storage\Storage.DAL\bin\Debug\net7.0\appsettin
 D:\KPI\4_year\7_semester\.NET\Eva\Storage\Storage.DAL\bin\Debug\net7.0\Storage.Shared.dll
 D:\KPI\4_year\7_semester\.NET\Eva\Storage\Storage.DAL\bin\Debug\net7.0\Storage.Shared.pdb
 D:\KPI\4_year\7_semester\.NET\Eva\Storage\Storage.DAL\obj\Debug\net7.0\Storage.DAL.csproj.CopyComplete
-D:\Programming\Eva\Storage\Storage.DAL\bin\Debug\net7.0\appsettings.json
 D:\Programming\Eva\Storage\Storage.DAL\bin\Debug\net7.0\Storage.DAL.deps.json
 D:\Programming\Eva\Storage\Storage.DAL\bin\Debug\net7.0\Storage.DAL.runtimeconfig.json
 D:\Programming\Eva\Storage\Storage.DAL\bin\Debug\net7.0\Storage.DAL.dll
