@@ -1,0 +1,373 @@
+{
+	"info": {
+		"_postman_id": "2c578b0f-4a2a-4df7-821d-0c110ba5c0dd",
+		"name": "EvasStorage",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21414239"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"user@gmail.com\",\r\n    \"password\": \"password\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7162/api/auth/login",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7162",
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"My Name\",\r\n    \"email\": \"user22@gmail.com\",\r\n    \"password\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7162/api/auth/register",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7162",
+							"path": [
+								"api",
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Order",
+			"item": [
+				{
+					"name": "Get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7162/api/orders",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7162",
+							"path": [
+								"api",
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all not done",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7162/api/orders/not-done",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7162",
+							"path": [
+								"api",
+								"orders",
+								"not-done"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get by id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7162/api/orders/17",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7162",
+							"path": [
+								"api",
+								"orders",
+								"17"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get user orders",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"user@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7162/api/orders/user",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7162",
+							"path": [
+								"api",
+								"orders",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userEmail\": \"user@gmail.com\",\r\n    \"orderItems\": [\r\n        {\r\n            \"productId\": 2,\r\n            \"quantity\": 12\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7162/api/orders",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7162",
+							"path": [
+								"api",
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Mark As Done",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7162/api/orders/16/done",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7162",
+							"path": [
+								"api",
+								"orders",
+								"16",
+								"done"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Product",
+			"item": [
+				{
+					"name": "Get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7162/api/products",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7162",
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get by id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7162/api/products/2",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7162",
+							"path": [
+								"api",
+								"products",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Product name\",\r\n    \"quantityInStock\": 150,\r\n    \"price\": 100.654\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7162/api/products",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7162",
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Edited product\",\r\n    \"quantityInStock\": 12,\r\n    \"price\": 1000.40\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7162/api/products/2",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7162",
+							"path": [
+								"api",
+								"products",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7162/api/products/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7162",
+							"path": [
+								"api",
+								"products",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Renew",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7162/api/products/renew",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7162",
+							"path": [
+								"api",
+								"products",
+								"renew"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
